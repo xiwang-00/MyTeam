@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('Livvic-Bold.eot');
+    src: url('Livvic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Livvic-Bold.woff') format('woff'),
+        url('Livvic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('Livvic-Medium.eot');
+    src: url('Livvic-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Livvic-Medium.woff') format('woff'),
+        url('Livvic-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('Livvic-Regular.eot');
+    src: url('Livvic-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Livvic-Regular.woff') format('woff'),
+        url('Livvic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('Livvic-SemiBold.eot');
+    src: url('Livvic-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Livvic-SemiBold.woff') format('woff'),
+        url('Livvic-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
