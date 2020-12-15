@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>My Team</title>
+    <title>Contact</title>
 </head>
-
 <body>
     <div class="overlay"></div>
     <header>
-        <div class="header-inner">
+        <div class="about-inner">
             <div class="menu-inner row container">
                 <div class="menu-inner__left row">
                     <div class="logo">
@@ -39,106 +37,42 @@
                     </a>
                 </div>
             </div>
-            <div class="hero container hero-row">
-                <div class="hero__left">
-                    <h1 class="hero-text">Find the best <span class="hero-text__span">talent</span></h1>
+            <div class="about container about-two-row">
+                <div class="about__left">
+                    <h1 class="about-text">Contact</h1>
+                    <h3 class="about-text--two">Ask us about</h3>
+                    <div class="about-row">
+                        <img src="./images/Group 11.svg" alt="">
+                        <p class="about-row__text">The quality of our talent network</p>
+                    </div>
+                    <div class="about-row">
+                        <img src="./images/Group 12.svg" alt="">
+                        <p class="about-row__text">Usage & implementation of our software</p>
+                    </div>
+                    <div class="about-row">
+                        <img src="./images/Group 13.svg" alt="">
+                        <p class="about-row__text">How we help drive innovation</p>
+                    </div>
                 </div>
-                <div class="hero__right">
-                    <p class="hero-info">Finding the right people and building high performing teams can be
-                        hard. Most companies aren’t tapping into the abundance of global talent. We’re about
-                        to change that.
-                    </p>
+                <div class="about__right"> 
+                   <form action="">
+                       <label class="label" for="user">Name</label>
+                       <input class="input" type="text" name="user" id="user">
+                       <label class="label" for="email">Email Address</label>
+                       <input class="input" type="email" name="email" id="email">
+                       <label class="label" for="company">Company Name</label>
+                       <input class="input" type="text" name="company" id="company">
+                       <label class="label" for="title">Title</label>
+                       <input class="input" type="text" name="title" id="title">
+                       <label class="label" for="message">Message</label>
+                       <textarea class="input" name="message" id="message" cols="30" rows="2"></textarea>
+                       <button type="submit" class="about__button">submit</button>
+
+                   </form>
                 </div>
             </div>
         </div>
     </header>
-    <main>
-        <section>
-            <div class="section-inner">
-                <div class="container section-inner__row">
-                    <div class="section-inner__left">
-                        <h2 class="left-text">Build & manage distributed teams like no one else.</h2>
-                    </div>
-                    <div class="section-inner__right">
-                        <div class="icon row">
-                            <div class="icon-image">
-                                <img src="./images/Group 11.svg" alt="">
-                            </div>
-                            <div class="icon-text">
-                                <h4 class="icon-text__first">Experienced Individuals</h4>
-                                <p class="icon-text__last">Our network is made up of highly experienced professionals
-                                    who are passionate about what they do.</p>
-                            </div>
-                        </div>
-
-                        <div class="icon row">
-                            <div class="icon-image">
-                                <img src="./images/Group 12.svg" alt="">
-                            </div>
-                            <div class="icon-text">
-                                <h4 class="icon-text__first">Easy to Implement</h4>
-                                <p class="icon-text__last">Our processes have been refined over years of implementation
-                                    meaning our teams always deliver.</p>
-                            </div>
-                        </div>
-                        <div class="icon row">
-                            <div class="icon-image">
-                                <img src="./images/Group 13.svg" alt="">
-                            </div>
-                            <div class="icon-text">
-                                <h4 class="icon-text__first">Enhanced Productivity</h4>
-                                <p class="icon-text__last">Our customized platform with in-built analytics helps you
-                                    manage your distributed teams.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="section-two-inner">
-                <div class="container">
-                    <div class="section-two-inner__text">
-                        <h2>Delivering real results for top companies.
-                            Some of our <span class="section-two-inner__text-span">success stories.</span> </h2>
-                    </div>
-                    <div class="section-two-inner__row">
-                        <div class="block">
-                            <p class="block__text"> “The team perfectly fit the specialized skill set required. They
-                                focused on the most essential
-                                features helping us launch the platform eight months faster than planned.”</p>
-                            <h4 class="block__name">Kady Baker</h4>
-                            <i class="block__italic">Product Manager at Bookmark</i>
-                            <img src="./images/Oval@2x.svg" alt="">
-                        </div>
-                        <div class="block">
-                            <p class="block__text">“We needed to automate our entire onboarding process. The team came
-                                in and built out the whole journey.
-                                Since going live, user retention has gone through the roof!”</p>
-                            <h4 class="block__name">Aiysha Reese</h4>
-                            <i class="block__italic">Founder of Manage</i>
-                            <img src="./images/Oval Copy 5.svg" alt="">
-                        </div>
-                        <div class="block">
-                            <p class="block__text">“Amazing. Our team helped us build an app that delivered a new
-                                experience for hiring a physio.
-                                The launch was an instant success with 100k downloads in the first month.”</p>
-                            <h4 class="block__name">Arthur Clarke</h4>
-                            <i class="block__italic">Co-founder of MyPhysio</i>
-                            <img src="./images/Oval Copy 6.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section-three-inner">
-                <div class="container section-three-inner__row">
-                    <h2 class="section-three-inner__text">Ready to get started?</h2>
-                    <a class="section-three-inner__link" href="./contact.html">contact us</a>
-                </div>
-            </div>
-        </section>
-    </main>
     <footer>
         <div class="footer-inner">
             <div class="container row">
