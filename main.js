@@ -7,9 +7,6 @@ let lineThree = document.querySelector(".line--three")
 let links = document.querySelector(".mobile-menu__links")
 let link = document.querySelector(".mobile-menu__link")
 let button = document.querySelector(".mobile-menu__right")
-let circle = document.querySelector(".circle")
-let boxTwo = document.querySelector(".box-two")
-
 
 burger.addEventListener('click', function() {
  overlay.classList.toggle("open")
@@ -22,7 +19,34 @@ burger.addEventListener('click', function() {
  button.classList.toggle("d-block")
 });
 
-circle.addEventListener('click', function(){
-boxTwo.classList.toggle("opacity")
-circle.classList.toggle("rotate")
-});
+
+var circle = document.querySelectorAll('.circle');
+var boxTwo = document.querySelectorAll('.box-two');
+
+function allClassRemover(clickedElement) {
+    circle.forEach(item => {
+        if (item.dataset.itemOrder !== clickedElement.dataset.itemOrder) {
+            item.classList.remove('rotate')
+        }
+        else {
+            item.classList.toggle('rotate')
+        }
+    })
+    boxTwo.forEach(itemTwo =>{
+        if (itemTwo.dataset.itemOrder !== clickedElement.dataset.itemOrder) {
+            itemTwo.classList.remove("opacity")
+        }
+        else {
+            itemTwo.classList.toggle("opacity")
+        }
+    })
+}
+
+circle.forEach((item,itemTwo,index) => {
+    item.addEventListener('click', function (e) {
+        e.preventDefault();
+        allClassRemover(item,itemTwo,index);
+
+    })
+}
+)

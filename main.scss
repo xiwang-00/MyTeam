@@ -609,14 +609,11 @@ p {
     bottom: -28px;
     left: 147px;
 
-    &:hover {
-        background: #79C8C7;
-    }
-
 }
 
 .circle.rotate {
     transform: rotate(-45deg);
+    background: #79C8C7;
    }
 
 .section-five-inner {
